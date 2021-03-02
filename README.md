@@ -31,33 +31,33 @@
 ***
 Отчет о прохождении тестов Allure Report можно посмотреть по ссылке https://jenkins.autotests.cloud/job/C03-kam75-rencredit/5/allure
 ***
-![alt-AllureReport](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureReport1.png "AllureReport")
-![alt-AllureReport](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureReport2.png "AllureReport")
-![alt-AllureReport](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureReport3.png "AllureReport")
+![alt-AllureReport](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureReport1.png "AllureReport")
+![alt-AllureReport](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureReport2.png "AllureReport")
+![alt-AllureReport](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureReport3.png "AllureReport")
 ### Selenoid
 ***
 Для контейнеризации тестов использован Selenoid.
 ***
-![alt-Selenoid](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/Selenoid.gif "Selenoid")
+![alt-Selenoid](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/Selenoid.gif "Selenoid")
 ### Allure TestOps (EE) 
 ***
 В качестве системы управления тестами использован Allure TestOps.  
 ***
-![alt-AllureTestOps](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureTestOps1.png "AllureTestOps")
-![alt-AllureTestOpsv](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureTestOps2.png "AllureTestOps")
-![alt-AllureTestOpsv](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/AllureTestOps3.png "AllureTestOps")
+![alt-AllureTestOps](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureTestOps1.png "AllureTestOps")
+![alt-AllureTestOpsv](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureTestOps2.png "AllureTestOps")
+![alt-AllureTestOpsv](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/AllureTestOps3.png "AllureTestOps")
 ### Jira
 ***
 Создана задача в Jira. К ней добавлены тест-кейсты, информация о запусках тестов.
 ***
-![alt-Jira](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/images/Jira.png "Jira")
-![alt-Jira](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/Jira2.png "Jira")
+![alt-Jira](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/images/Jira.png "Jira")
+![alt-Jira](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/Jira2.png "Jira")
 ***
 ### Telegram Notifications
 ***
 После окончания тестов результаты отправляются в Telegram
 ***
-![alt-TelegramNotifications](https://github.com/kam32/innopolis_tests/raw/master/src/test/resources/images/Telegram.png "Telegram")
+![alt-TelegramNotifications](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/Telegram.png "Telegram")
 
 
 
