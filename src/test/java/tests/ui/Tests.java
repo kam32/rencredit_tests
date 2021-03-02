@@ -149,7 +149,7 @@ public class Tests extends TestBase {
             open("https://rencredit.ru/support/appeals/");
         });
         step("Проверить, что кнопка полупрозрачна и неактивна", () -> {
-upda            $("button[type='submit']").shouldHave(cssValue("opacity", "0.5"), cssClass("btn_red_disabled"));
+            $("button[type='submit']").shouldHave(cssValue("opacity", "0.5"), cssClass("btn_red_disabled"));
         });
     }
 }
