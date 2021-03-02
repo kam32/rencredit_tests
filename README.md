@@ -55,7 +55,7 @@
 ***
 ### Telegram Notifications
 ***
-После окончания тестов результаты отправляются в Telegram
+После окончания тестов результаты отправляются в Telegram.
 ***
 ![alt-TelegramNotifications](https://github.com/kam32/rencredit_tests/raw/master/src/test/resources/images/Telegram.png "Telegram")
 
