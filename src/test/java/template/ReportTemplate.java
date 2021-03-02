@@ -5,10 +5,6 @@ import io.qameta.allure.restassured.AllureRestAssured;
 public class ReportTemplate {
     private static final AllureRestAssured FILTER = new AllureRestAssured();
 
-    private static class InitLogFilter {
-        private static final ReportTemplate logFilter = new ReportTemplate();
-    }
-
     private ReportTemplate() {
     }
 
@@ -20,5 +16,9 @@ public class ReportTemplate {
         FILTER.setRequestTemplate("request.ftl");
         FILTER.setResponseTemplate("response.ftl");
         return FILTER;
+    }
+
+    private static class InitLogFilter {
+        private static final ReportTemplate logFilter = new ReportTemplate();
     }
 }

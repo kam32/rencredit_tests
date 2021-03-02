@@ -1,5 +1,6 @@
 package tests.api;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.AllureId;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -24,6 +25,10 @@ public class ApiTests {
         credentials.add(2, new Credentials("/*-$34", "$5324#"));
         credentials.add(3, new Credentials("/*-  $34", "$5324#"));
         credentials.add(4, new Credentials("464651fac /*-", "0000#"));
+
+        Allure.description("Логин: " + credentials.get(n).getLogin() +
+                "Пароль: " + credentials.get(n).getPassword()
+        );
 
         String token = "64afcafa-9478-415d-a7f0-9d268fd2ce81";
 
