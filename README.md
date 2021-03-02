@@ -1,12 +1,12 @@
 # Renaissance Credit tests
-###[UI-тесты (ссылка на тесты)](https://github.com/kam32/rencredit_tests/blob/master/src/test/java/tests/ui/Tests.java)
+### [UI-тесты (ссылка на тесты)](https://github.com/kam32/rencredit_tests/blob/master/src/test/java/tests/ui/Tests.java)
 1. Неуспешная авторизация
 2. Отправка пустой формы заказа
 3. Проверка калькулятора вкладов
 4. Проверить кнопку формы обратной связи
 5. Проверка количества дебетовых карт
 6. Проверка формы заказа дебетовой карты
-###[API-тест (ссылка на тест)](https://github.com/kam32/rencredit_tests/blob/master/src/test/java/tests/api/ApiTests.java)
+### [API-тест (ссылка на тест)](https://github.com/kam32/rencredit_tests/blob/master/src/test/java/tests/api/ApiTests.java)
 1. Неуспешная авторизация (параметризированный)
 ## Использованные инструменты:
 * Java
